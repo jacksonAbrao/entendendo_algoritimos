@@ -1,7 +1,7 @@
 def buscaMenor(arr):
     menor = arr[0]
     menor_indice = 0
-    for i in range(1, len(arr)):
+    for i in range(1, len(arr)): #range vai fazer uma sequência
         if arr[i] < menor :
             menor = arr[i]
             menor_indice = i

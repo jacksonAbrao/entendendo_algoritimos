@@ -1,9 +1,9 @@
 def pesquisa_binaria(lista, item):
     baixo = 0
-    alto = len(lista) - 1
+    alto = len(lista) - 1 #len retorna o número de items na lista
 
     while baixo <= alto :
-        meio = int((baixo + alto) / 2)
+        meio = int((baixo + alto) / 2) #int é pra tipar que sempre vai receber um número inteiro
         chute = lista[meio]
         if chute == item :
             return meio
